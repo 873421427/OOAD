@@ -1,37 +1,53 @@
-## Welcome to GitHub Pages
+## 1. 软件工程的定义
+(1) 软件工程是将系统化，有计划的，可量化的方法运用到开发，运行，维护软件中，既是将工程化的方法运用到软件中
+(2) 对(1)中方法的研究
 
-You can use the [editor on GitHub](https://github.com/873421427/OOAD/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## 2. 解释导致 software crisis 本质原因、表现，述说克服软件危机的方法
+    －　软件危机的原因是由于计算能力的快速增长和问题复杂度的快速增长，这些问题导致了软件复杂度的快速增长，由于现有方法无法有效应对，导致出现许多软件开发问题
+    －　表现
+        －　项目预算超标
+        －　项目超时
+        －　软件低效
+        －　低质量的软件
+        －　软件没有达到要求
+        －　项目难以管理，软件难以维护
+        －　软件不交付
+    －　克服软件危机的方法：软件开发过程将软件开发任务分为设计，项目管理，产品管理。有很多的软件开发方法如瀑布，原型，迭代上升，快速应用开发，极致开发等方法
+## 3. 软件生命周期
+    将软件开发工作分为不同阶段以改进设计，产品管理和项目管理的过程
+    1.　需求产生
+    2.　系统概念开发
+    3.　计划
+    4.　需求分析
+    5.　设计
+    6.　开发
+    7.　迭代和测试
+    8.  部署
+    9.　运行和维护 
+## 4. SWEBoK 的 15 个知识域（An Overview of the SWEBOK Guide 请中文翻译其名称与简短说明）
+    1. 软件需求　关注软件需求的获取，沟通，分析，定义，验证
+    2.　软件设计　定义架构，组成部分，接口，以及系统的其他特征以及上述过程的结果。覆盖了设计过程结果产品
+    3.　软件构建　通过结合具体设计，编码，单元测试，集成测试，调试，和验证来构建一个软件
+    4.  软件测试　评估产品质量并且通过检测软件缺陷来提升软件质量
+    5.　软件维护　增强软件现有的功能，改进软件以能在新的新的运行环境中运行，并且改正缺陷
+    6.　软件配置管理　识别系统在某个时间点的系统配置以系统的控制配置的改变，同时在软件的生命周期中维护软件的完整性和可追溯性，包含软件配置识别，控制，状态审计，软件发布管理和交付
+    7.　软件工程管理　包含计划，定位，估算，报告，控制项目或程序以确保软件的开发和维护是系统的，有计划的，有质量的
+    8.　软件工程过程　关注软件生命周期过程的定义，实现，评估，测量，管理，提升
+    9.　软件工程模型和方法　用于定位包含多生命周期平台的方法
+    10.　软件质量　包含软件质量基础（软件工程文化，软件质量特征，软件质量的价值和花费，软件质量提升），软件质量管理过程，和实际考虑
+    11.　软件工程专业实施　关注软件工程师必须拥有的知识，技能，和态度以实现软件工程
+    12.　软件工程经济学　关注在商业事务中作抉择以让技术抉择和组织的商业目标一致，包含现金流，提议，钱的时间价值，估算经济风险
+    13.　计算基础设施　为软件工程的实施提供必要的计算基础设施背景
+    14.　数学基础　为软件工程的实施提供必要的数学背景知识，包括集合，关系
+    15.　工程基础　为软件工程的实施提供必要的工程知识
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 5. 简单解释 CMMI 的五个级别。例如：Level 1 - Initial：无序，自发生产模式。
+    Level1 Initial 无序的过程不可预知，不好的控制和响应
+    Level2 Managed 建立了基本的项目管理过程，对于项目过程已经标准化，并且有响应
+    Level3 Defined　对于组织过程已经标准化，并且是积极响应的，软件产品生产过程在整个生命周期是可见的
+    Level4 Quantitiatively Managed　过程可测量可控制，对软件生产过程和产品有定量的控制。管理有客观依据，管理和开发可预测
+    Level5 Optimizing 关注过程提升，不断运用新技术，新思想来提升改进产品和管理
+##　6. 用自己语言简述 SWEBok 或 CMMI （约200字）
+    CMMI 能力成熟度模型集成，是一种改进过程的方法，其目的是协助提升组织的绩效，可以用来引导一整个项目，一整个部门乃至一个完整的组织的过程改进。在软件工程和组织发展的领域中，CMMI能够向组织提供用于有效的的过程改进的基本元素。
+    CMMI 也用来评估软件企业的成熟度。用来评估的准则主要有配置管理，度量和分析，项目监控，项目计划，需求管理，风险管理，再往上有组织上的培训，组织上的过程绩效，组织上的绩效管理，量化的项目管理等评价准则。
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/873421427/OOAD/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
